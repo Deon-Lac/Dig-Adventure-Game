@@ -1,9 +1,7 @@
 #include "digAdventureGame.h"
 
 using namespace std;
-/*******************************
- * Student Functions
-*******************************/
+
 void dig_adventure_game::allocateGrid() {
 	//checks to see if grid has memory allready
 	if (game_grid != nullptr)
@@ -253,9 +251,6 @@ unsigned int dig_adventure_game::playerMove() {
 	return GAME_ERROR; // You may want to replace. 
 }
 
-/*******************************
- * Mr. P Functions
-*******************************/
 void dig_adventure_game::populateGrid() {
 	if(game_width < 2 || game_height < 2){
 		return;
