@@ -1,9 +1,3 @@
-/*
-Name:Diego lacambacal, NSHE: 5005247606, Section: 202-1004, Assignment 5
-Description: Minecraft cool game
-Input: seed, height, width, and directions
-Output: board
-*/
 #include <iostream>
 using namespace std;
 
